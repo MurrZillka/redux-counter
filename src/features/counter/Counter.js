@@ -11,7 +11,7 @@ const Counter = () => {
             <h1>Counter: {count}</h1>
             <button onClick={() => dispatch(increment())}>+</button>
             <button onClick={() => dispatch(decrement())}>-</button>
-            <button onClick={() => dispatch(resetCounter())}>Reset to 100</button>
+            <button onClick={() => dispatch(resetCounter())}>Reset to default</button>
         </div>
     );
 };
