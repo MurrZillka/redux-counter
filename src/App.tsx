@@ -1,5 +1,4 @@
-import React from 'react';
-import Counter from './features/counter/Counter';
+import Counter from '@/features/counter/ui/Counter';
 
 function App() {
     return (
